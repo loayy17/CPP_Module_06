@@ -29,16 +29,6 @@ Memory checks
 -------------
 - Ran `valgrind --leak-check=full` on each binary with representative inputs — no leaks and no errors reported.
 
-Changes made (for fixes & compliance)
-------------------------------------
-- ex00/ScalarConverter.hpp: added `#include <string>`.
-- ex00/TypeConverter.cpp: added `<cctype>, <limits>`, handled quoted char literals ('a').
-- ex00/test_convert.sh and ex00/test_convert_strict.sh: created test scripts.
-- ex01/Data.hpp: added `#include <string>`.
 
-Next steps / Recommendations
-----------------------------
-- Run final `make fclean && make` in each exercise and verify binaries before submitting.
-- Optionally run valgrind locally on the target environment again.
 
 Good luck with your defense!
